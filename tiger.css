@@ -24,6 +24,9 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    height: 400px;
+    background-image: url('https://images.unsplash.com/photo-1618142990632-1afb1bd67e7c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dGlnZXJzfGVufDB8fDB8fHww');
+    background-size: cover;
 }
 
 header h1 {
@@ -41,13 +44,18 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-size: 1.2em;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #db7202;
 }
 
 nav ul li a:hover {
-    color: #e74c3c;
+    color: #f6f6f6;
 }
 
 
@@ -95,4 +103,12 @@ footer {
 
 footer p {
     font-size: 1em;
+}
+.h1{
+    font-size: 100px;
+}
+.container1 {
+    color: #db7202;
+    width: 80%;
+    margin: auto;
 }
