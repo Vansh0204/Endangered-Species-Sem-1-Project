@@ -29,6 +29,9 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('https://wallpapers.com/images/hd/3d-animated-tiger-146yx0mre6bx60eg.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 header h1 {
