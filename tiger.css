@@ -7,14 +7,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #FFFF00;
-    text-shadow: 0 0 10px #3EB489, 0 0 20px #3EB489, 0 0 30px #3EB489;
+    color: #000000;
     line-height: 1.6;
-    background-image: url('https://wallpapers.com/images/hd/3d-animated-tiger-146yx0mre6bx60eg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    /* opacity:0.6; */
 }
 
 .container {
