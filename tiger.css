@@ -1,114 +1,133 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #FFFF00;
+    text-shadow: 0 0 10px #3EB489, 0 0 20px #3EB489, 0 0 30px #3EB489;
     line-height: 1.6;
+    background-image: url('https://wallpapers.com/images/hd/3d-animated-tiger-146yx0mre6bx60eg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* opacity:0.6; */
 }
 
 .container {
     width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 20px;
 }
 
-
 header {
-    background-color: #2c3e50;
-    color: #fff;
-    padding: 20px 0;
+    color: orange;
+    padding: 50px 0;
     text-align: center;
-    height: 400px;
-    background-image: url('https://images.unsplash.com/photo-1618142990632-1afb1bd67e7c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dGlnZXJzfGVufDB8fDB8fHww');
+    height: auto;
     background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 header h1 {
     font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 20px;
 }
 
 nav ul {
     list-style-type: none;
-    margin-top: 10px;
+    padding: 0;
+    margin-top: 20px;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: inline-block;
+    margin-right: 30px;
 }
 
 nav ul li a {
-    color: #000000;
+    color: white;
     text-decoration: none;
-    font-size: 1.2em;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    font-size: 1.5em;
+    padding: 15px 25px;
     background-color: #db7202;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 nav ul li a:hover {
     color: #f6f6f6;
+    background-color: #f39c12;
 }
 
-
 .section {
-    background-color: #fff;
-    padding: 40px 0;
-    margin-bottom: 20px;
+    padding: 50px 0;
+    margin-bottom: 30px;
+    width: 80%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section h2 {
-    font-size: 2em;
-    color: #2c3e50;
-    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 25px;
 }
 
 .section p {
-    font-size: 1.1em;
-    margin-bottom: 20px;
+    font-size: 1.2em;
+    margin-bottom: 25px;
 }
 
 .section img {
     width: 100%;
+    max-width: 700px;
     height: auto;
     border-radius: 8px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
-
 
 ul {
     list-style-type: disc;
     margin-left: 20px;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 ul li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 footer {
     background-color: #2c3e50;
     color: #fff;
-    padding: 10px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
 footer p {
-    font-size: 1em;
+    font-size: 1.2em;
 }
-.h1{
-    font-size: 100px;
+
+.h1 {
+    font-size: 120px;
 }
+
 .container1 {
     color: #db7202;
     width: 80%;
     margin: auto;
 }
+
+
+
+
