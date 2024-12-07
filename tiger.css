@@ -63,7 +63,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #f6f6f6;
-    background-color: #f39c12;
+    background-color: #f39a0b;
 }
 
 .section {
@@ -79,6 +79,8 @@ nav ul li a:hover {
     font-size: 2.5em;
     color: white;
     margin-bottom: 25px;
+    text-shadow: 0 0 10px #d38240, 0 0 20px #d38a4a, 0 0 30px #d3844c;
+    text-align: center;
 }
 
 .section p {
@@ -117,6 +119,8 @@ footer p {
 
 .h1 {
     font-size: 120px;
+    padding-bottom: 60px;
+    text-shadow: 0 0 10px #d38240, 0 0 20px #d38a4a, 0 0 30px #d3844c;
 }
 
 .container1 {
@@ -128,7 +132,12 @@ footer p {
     width: 400px;
     height: auto;
 }
-
+.mapping{
+    display: flex;
+    align-items: center;
+    font-size: 1.6em;
+    gap: 20px;
+}
 
 
 
