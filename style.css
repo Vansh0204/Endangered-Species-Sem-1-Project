@@ -402,3 +402,18 @@ header nav a:hover {
     color: #33fe00;
     transition: color 0.8s ease, transform 0.8s ease;
 }
+.scroll-down span {
+    font-size: 24px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translate(-50%, 0);
+    }
+    50% {
+        transform: translate(-50%, -10px);
+    }
+}
