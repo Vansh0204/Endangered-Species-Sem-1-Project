@@ -388,3 +388,17 @@ header nav a:hover {
     height: 100%;
     object-fit: cover;
 }
+.scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    animation: bounce 1.5s infinite;
+}
+.scroll-down:hover{
+    color: #33fe00;
+    transition: color 0.8s ease, transform 0.8s ease;
+}
