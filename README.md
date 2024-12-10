@@ -17,3 +17,17 @@ JavaScript: Interactive elements.
 GitHub Pages: Hosting the website.
 Contribute
 Feel free to fork this repository, create issues, or submit pull requests to improve the website.
+
+
+NOTE:-
+REQUIERED-
+Please install these Fonts:
+Poppin
+Odibee Sans Font
+Libre Baskerville Font Family
+Super Blasters
+
+We took some reference from youtube to make this website.
+We have added a video in low quality due to github's policy,Sorry for the inconvinience.
+
+THANK YOU FOR VISITING ❤️
