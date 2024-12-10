@@ -247,3 +247,38 @@ header nav a:hover{
         opacity: 0;
     }
 }
+@media screen and (max-width: 678px) {
+    .carousel .list .item .content{
+        padding-right: 0;
+    }
+    .carousel .list .item .content .title{
+        font-size: 30px;
+    }
+}
+.contact-form {
+    background: transparent;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 2);
+    width: 400px;
+    text-align: center;
+  }
+
+  .contact-form h1 {
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+    background-color: #000000;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
