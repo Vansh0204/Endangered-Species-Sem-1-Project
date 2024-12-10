@@ -308,3 +308,28 @@ header nav a:hover{
     border-radius: 5px;
     cursor: pointer;
   }
+.contact-form button:hover {
+    background-color: #007f82;
+  }
+  .name1{
+    background: url('forest.webp');
+    -webkit-mask-image: radial-gradient(circle, black 90%, rgba(0, 0, 0, 0.5) 10%);
+    mask-image: radial-gradient(circle, black 40%, rgba(0, 0, 0, 0.5) 50%);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 50px;
+    border-radius: 20px;
+  }
+  .carousel .list .item .content .des{
+    color: white;
+    text-shadow: 0 0 20px black,0 0 20px black,0 0 20px black;
+  }
+  footer p{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Super Blasters';
+    letter-spacing: 3px;
+  }
