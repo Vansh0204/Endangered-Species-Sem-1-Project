@@ -360,3 +360,31 @@ header {
     padding-left: 150px;
     
 }
+header nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 30px;
+    text-shadow: 5px 5px 25px#000000;
+}
+
+header nav a:hover {
+    color: #000000;
+    text-shadow: 5px 5px 25px#ffffff;
+    font-weight: bold;
+    transition: color 0.8s ease, transform 0.8s ease;;
+}
+
+.carousel1 {
+    position: relative;
+    height: 107vh;
+    overflow: hidden;
+}
+
+.carousel1 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
