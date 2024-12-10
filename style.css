@@ -35,3 +35,19 @@ header nav a:hover{
     height: 100%;
     object-fit: cover;
 }
+.carousel .list .item .buttons button:nth-child(2){
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #eee;
+}
+.carousel .list .item .buttons button:nth-child(1):hover{
+    background-color: transparent;
+    color: #ffffff;
+    transition: 0.5s ease;
+}
+.carousel .list .item .buttons button:nth-child(2):hover{
+    background-color: white;
+    color: #000000;
+    border: 1px solid #fff;
+    transition: 0.5s ease;
+}
