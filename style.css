@@ -1,3 +1,4 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');*/
 body{
     margin: 0;
     padding: 0;
@@ -16,6 +17,7 @@ header nav a:hover{
     text-shadow: 5px 5px 20px black;
     transition: 1.5s ease-in-out;
 }
+
 .carousel{
     margin-top: 10px;
     height: 100vh;
@@ -54,32 +56,33 @@ header nav a:hover{
     text-shadow: 0px 0px 20px black,0px 0px 20px black,0px 0px 20px black;
 }
 
-.carousel .list .item .buttons{
+.carousel .list .item .buttons {
     display: grid;
-    grid-template-columns: repeat(2, 130px);
+    grid-template-columns: repeat(2, 115px);
     grid-template-rows: 40px;
-    gap: 5px;
+    gap: 3px;
     margin-top: 20px;
 }
-.carousel .list .item .buttons button{
+.carousel .list .item .buttons .but button{
     border: none;
     background-color: #eee;
     letter-spacing: 3px;
     font-family: Poppins;
     font-weight: 500;
+    padding: 8px;
     border: 1px solid #fff;
 }
-.carousel .list .item .buttons button:nth-child(2){
+.carousel .list .item .buttons a button:nth-child(2){
     background-color: transparent;
     border: 1px solid #fff;
     color: #eee;
 }
-.carousel .list .item .buttons button:nth-child(1):hover{
+.carousel .list .item .buttons .but button:nth-child(1):hover{
     background-color: transparent;
     color: #ffffff;
     transition: 0.5s ease;
 }
-.carousel .list .item .buttons button:nth-child(2):hover{
+.carousel .list .item .buttons .but button:nth-child(2):hover{
     background-color: white;
     color: #000000;
     border: 1px solid #fff;
@@ -113,6 +116,41 @@ header nav a:hover{
     bottom: 10px;
     left: 10px;
     right: 10px;
+}
+.thumbnail .item .content .title{
+    font-weight: 500;
+}
+.thumbnail .item .content .description{
+    font-weight: 300;
+}
+.arrows{
+    position: absolute;
+    top: 80%;
+    right: 52%;
+    z-index: 100;
+    width: 300px;
+    max-width: 30%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.arrows button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(36, 36, 36, 0.885);
+    border: none;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    transition: .5s;
+}
+.arrows button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.carousel .list .item:nth-child(1){
+    z-index: 1;
 }
 .carousel .list .item:nth-child(1) .content .author,
 .carousel .list .item:nth-child(1) .content .title,
@@ -206,6 +244,7 @@ header nav a:hover{
 .carousel.prev .list .item:nth-child(2){
     z-index: 2;
 }
+
 .carousel.prev .list .item:nth-child(2) img{
     animation: outFrame 0.5s linear 1 forwards;
     position: absolute;
@@ -282,7 +321,8 @@ header nav a:hover{
     border-radius: 5px;
     font-size: 1rem;
   }
-.contact-form textarea {
+
+  .contact-form textarea {
     height: 100px;
     resize: none;
   }
@@ -308,7 +348,8 @@ header nav a:hover{
     border-radius: 5px;
     cursor: pointer;
   }
-.contact-form button:hover {
+
+  .contact-form button:hover {
     background-color: #007f82;
   }
   .name1{
@@ -333,7 +374,7 @@ header nav a:hover{
     font-family: 'Super Blasters';
     letter-spacing: 3px;
   }
-footer{
+  footer{
     background-image: url(forest2.jpeg);
     background-size: cover;
     color: #000000;
@@ -360,6 +401,7 @@ header {
     padding-left: 150px;
     
 }
+
 header nav a {
     text-decoration: none;
     color: white;
@@ -388,6 +430,7 @@ header nav a:hover {
     height: 100%;
     object-fit: cover;
 }
+
 .scroll-down {
     position: absolute;
     bottom: 30px;
